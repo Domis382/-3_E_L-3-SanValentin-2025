@@ -1,174 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
-*{
-    font-family: 'Poppins',cursive;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap");
+* {
+  font-family: "Poppins", cursive;
 }
-body{
-    color: azure;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
+body {
+  color: azure;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
 }
-.greetings{
-    font-size: 2rem;
+.greetings {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.greetings > span {
+  animation: glow 3s ease-in-out;
+  color: #ffffff;
+  text-shadow: 0 0 12px #d63939, 0 0 50px #39c6d6, 0 0 100px #d6c939;
+}
+@keyframes glow {
+  20%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 12px #8d39d6, 0 0 50px #7839d6, 0 0 100px #8739d6;
+  }
+  0%,
+  20% {
+    color: #111;
+    text-shadow: none;
+  }
+}
+.greetings > span:nth-child(1) {
+  animation-delay: 0s;
+}
+.greetings > span:nth-child(2) {
+  animation-delay: 0.02s;
+}
+.greetings > span:nth-child(3) {
+  animation-delay: 0.04s;
+}
+.greetings > span:nth-child(4) {
+  animation-delay: 0.06s;
+}
+.greetings > span:nth-child(5) {
+  animation-delay: 0.08s;
+}
+.greetings > span:nth-child(6) {
+  animation-delay: 0.1s;
+}
+.greetings > span:nth-child(7) {
+  animation-delay: 0.12s;
+}
+.greetings > span:nth-child(8) {
+  animation-delay: 0.14s;
+}
+.greetings > span:nth-child(9) {
+  animation-delay: 0.16s;
+}
+.greetings > span:nth-child(10) {
+  animation-delay: 0.18s;
+}
+.greetings > span:nth-child(11) {
+  animation-delay: 0.2s;
+}
+.greetings > span:nth-child(12) {
+  animation-delay: 0.22s;
+}
+.greetings > span:nth-child(13) {
+  animation-delay: 0.24s;
+}
+.greetings > span:nth-child(14) {
+  animation-delay: 0.26s;
+}
+.greetings > span:nth-child(15) {
+  animation-delay: 0.28s;
+}
+.greetings > span:nth-child(16) {
+  animation-delay: 0.3s;
+}
+.greetings > span:nth-child(17) {
+  animation-delay: 0.32s;
+}
+.greetings > span:nth-child(18) {
+  animation-delay: 0.36s;
+}
+.greetings > span:nth-child(19) {
+  animation-delay: 0.38s;
+}
+.greetings > span:nth-child(20) {
+  animation-delay: 0.4s;
+}
+.greetings > span:nth-child(21) {
+  animation-delay: 0.42s;
+}
+.greetings > span:nth-child(22) {
+  animation-delay: 0.44s;
+}
+.greetings > span:nth-child(23) {
+  animation-delay: 0.46s;
+}
+.greetings > span:nth-child(24) {
+  animation-delay: 0.48s;
+}
+.greetings > span:nth-child(25) {
+  animation-delay: 0.5s;
+}
+.greetings > span:nth-child(26) {
+  animation-delay: 0.52s;
+}
+.greetings > span:nth-child(27) {
+  animation-delay: 0.54s;
+}
+.greetings > span:nth-child(28) {
+  animation-delay: 0.56s;
+}
+.greetings > span:nth-child(29) {
+  animation-delay: 0.58s;
+}
+.description {
+  font-size: 70px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  animation: d_g 5s ease-in-out;
+}
+@keyframes d_g {
+  20%,
+  100% {
+    color: #fff;
+  }
+  0%,
+  20% {
+    color: #111;
+  }
+}
+
+.button a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: red;
+}
+
+.b1 {
+  width: 150px;
+  height: 120px;
+  animation: b_g 5s ease-in-out;
+}
+
+@keyframes b_g {
+  20%,
+  100% {
+    opacity: 1;
+  }
+  0%,
+  20% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .greetings {
+    display: block;
+    font-size: 1.8rem;
     font-weight: 600;
-}
-.greetings > span{
-    animation: glow 3s ease-in-out ;
-    color: #ffffff;
-    text-shadow: 0 0 12px #d63939, 0 0 50px #39c6d6, 0 0 100px #d6c939;
-}
-@keyframes glow{
-    20%, 100%{
-        color: #fff;
-        text-shadow: 0 0 12px #8d39d6, 0 0 50px #7839d6, 0 0 100px #8739d6;
-    }
-    0%, 20%{
-        color: #111;
-        text-shadow: none;
-    }
-}
-.greetings > span:nth-child(1){
-    animation-delay: 0s ;
-} 
-.greetings > span:nth-child(2){
-    animation-delay: .02s ;
-}
-.greetings > span:nth-child(3){
-    animation-delay: .04s ;
-}
-.greetings > span:nth-child(4){
-    animation-delay: .06s;
-}
-.greetings > span:nth-child(5){
-    animation-delay: .08s;
-}
-.greetings > span:nth-child(6){
-    animation-delay: .1s ;
-}
-.greetings > span:nth-child(7){
-    animation-delay: .12s ;
-}
-.greetings > span:nth-child(8){
-    animation-delay: .14s ;
-}
-.greetings > span:nth-child(9){
-    animation-delay: .16s ;
-}
-.greetings > span:nth-child(10){
-    animation-delay: .18s ;
-}
-.greetings > span:nth-child(11){
-    animation-delay: .2s ;
-}
-.greetings > span:nth-child(12){
-    animation-delay: .22s ;
-}
-.greetings > span:nth-child(13){
-    animation-delay: .24s ;
-}
-.greetings > span:nth-child(14){
-    animation-delay: .26s ;
-}
-.greetings > span:nth-child(15){
-    animation-delay: .28s ;
-}
-.greetings > span:nth-child(16){
-    animation-delay: .3s ;
-}
-.greetings > span:nth-child(17){
-    animation-delay: .32s ;
-}
-.greetings > span:nth-child(18){
-    animation-delay: .36s ;
-}
-.greetings > span:nth-child(19){
-    animation-delay: .38s ;
-}
-.greetings > span:nth-child(20){
-    animation-delay: .4s ;
-}
-.greetings > span:nth-child(21){
-    animation-delay: .42s ;
-}
-.greetings > span:nth-child(22){
-    animation-delay: .44s ;
-}
-.greetings > span:nth-child(23){
-    animation-delay: .46s ;
-}
-.greetings > span:nth-child(24){
-    animation-delay: .48s ;
-}
-.greetings > span:nth-child(25){
-    animation-delay: .5s ;
-}
-.greetings > span:nth-child(26){
-    animation-delay: .52s ;
-}
-.greetings > span:nth-child(27){
-    animation-delay: .54s ;
-}
-.greetings > span:nth-child(28){
-    animation-delay: .56s ;
-}
-.greetings > span:nth-child(29){
-    animation-delay: .58s ;
-}
-.description{
-    font-size: 70px;
-    margin-top: 50px;
-    margin-bottom: 35px;
-    animation: d_g 5s ease-in-out ;
-}
-@keyframes d_g{
-    20%, 100%{
-        color: #fff;
-    }
-    0%, 20%{
-        color: #111;
-    }
-}
+    text-align: center;
+  }
+  .description {
+    font-size: 25px;
+  }
 
-.button a{
-    text-decoration: none;
-    font-size: 1rem;
-    color: red;
-}
-
-.b1{
-    width: 150px;
-    height: 120px;
-    animation: b_g 5s ease-in-out ;
-}
-
-@keyframes b_g{
-    20%, 100%{
-        opacity: 1;
-    }
-    0%, 20%{
-        opacity: 0;
-    }
-}
-
-@media screen and (max-width:574px){
-    .greetings{
-        display: block;
-        font-size: 1.8rem;
-        font-weight: 600;
-        text-align: center;
-    }
-    .description{
-        font-size: 25px;
-    }
-    
-    .button a{
-        font-size: 10px;
-    }
-    .button {
-      margin: 5px 4px 6px 5px;
-    }
+  .button a {
+    font-size: 10px;
+  }
+  .button {
+    margin: 5px 4px 6px 5px;
+  }
 }
