@@ -18,7 +18,7 @@ body{
 }
 .greetings > span{
     animation: glow 3s ease-in-out ;
-    color: #ff0000;
+    color: #ffffff;
     text-shadow: 0 0 12px #d63939, 0 0 50px #39c6d6, 0 0 100px #d6c939;
 }
 @keyframes glow{
