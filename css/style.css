@@ -18,13 +18,13 @@ body{
 }
 .greetings > span{
     animation: glow 3s ease-in-out ;
-    color: #fff;
+    color: #ff0000;
     text-shadow: 0 0 12px #d63939, 0 0 50px #39c6d6, 0 0 100px #d6c939;
 }
 @keyframes glow{
     20%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #8d39d6, 0 0 50px #7839d6, 0 0 100px #8739d6;
     }
     0%, 20%{
         color: #111;
