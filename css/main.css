@@ -1329,7 +1329,7 @@ body {
   margin-bottom: auto;
   margin-left: 30px;
   margin-right: 30px;
-  font-size: 11px;
+  font-size: 12px;
   animation: tx 5s ease-in-out ;
   text-align: center;
   font-family: 'Brush Script MT', cursive;
@@ -1345,8 +1345,8 @@ body {
 }
 
 .b2{
-  width: 100px;
-  height: 200px;
+  width: 120px;
+  height: 250px;
   animation: b2 5s ease-in-out ;
 }
 
